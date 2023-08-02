@@ -55,16 +55,23 @@ export default function SearchAppBar({setSearch}) {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar className='d-flex flex-row justify-content-around'>
+          <div>
           <Typography
-            variant="h4"
+            variant="h3"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' },color:'black' }}
-          >
-            Machine Learning Projects
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' },color:'black' }}>
+            ML Notebooks/Projects 
           </Typography>
-          
+          <Typography
+            variant='button'
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' },color:'black' }}>
+            ~ Aarav Nigam
+          </Typography>
+          </div>
           
           <Search>
             <SearchIconWrapper>

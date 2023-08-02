@@ -9,7 +9,7 @@ function Footer() {
                 <section class="">
                     <div>
                     <b>
-                        All these ML Projects are made by me i.e. <u>Aarav Nigam</u>
+                        All these ML Notebooks/Projects are made by me i.e. <a className='bold text-dark' href='https://www.linkedin.com/in/aarav-nigam-09982b222/'><u>Aarav Nigam</u></a>
                     </b>
                     </div>
                     <div>
